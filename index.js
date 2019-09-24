@@ -9,8 +9,8 @@ const returnLastTwoDrivers = (arr) => {
 
 const selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers];
 
-const createFareMultiplier = (x, y) => {
-  let  fareQuintupler = function(x, y){
+const createFareMultiplier = (x) => {
+  let  fareQuintupler = function(y){
     x*y;
   };
 };
