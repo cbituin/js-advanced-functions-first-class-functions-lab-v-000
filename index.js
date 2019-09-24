@@ -12,7 +12,7 @@ const selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers];
 const createFareMultiplier = (x, y) => {
   function fareQuintupler(x,y){
     return x*y;
-  };
+  }
 };
 
 const fareDoubler = createFareMultiplier.bind(this, 2);
