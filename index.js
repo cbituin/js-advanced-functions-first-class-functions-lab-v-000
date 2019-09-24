@@ -15,9 +15,9 @@ const createFareMultiplier = function (multiplyValue) {
   };
 };
 
-const fareDoubler = createFareMultiplier.bind(this, 2);
+const fareDoubler = createFareMultiplier.(2);
 
-const fareTripler = createFareMultiplier.bind(this, 3);
+const fareTripler = createFareMultiplier.(3);
 
 
 const selectDifferentDrivers = (arr, func) => {
